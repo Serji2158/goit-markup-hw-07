@@ -262,25 +262,25 @@ p {
 
 /*-----------Студия--Особенности---------------*/
 
-.advantages-name {
+.section-features__title {
   display: none;
   color: var(--text-color-white);
 }
 
-.advantages-list {
+.features-list {
   display: flex;
   align-items: center;
 }
 
-.advantages-item {
+.features-list__item {
   flex-basis: calc((100%-90px) / 4);
 }
 
-.advantages-item + .advantages-item {
+.features-list__item + .features-list__item {
   margin-left: 30px;
 }
 
-.adantages-visual {
+.features-list__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -293,7 +293,7 @@ p {
   background-repeat: no-repeat;
 }
 
-.advantages-title {
+.features-list__title {
   margin-bottom: 10px;
   text-transform: uppercase;
 
@@ -304,7 +304,7 @@ p {
   color: var(--title-color);
 }
 
-.advantages-discr {
+.features-list__discription {
   margin-top: 10px;
   font-size: 14px;
   line-height: 1.71;
