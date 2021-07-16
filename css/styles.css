@@ -223,7 +223,7 @@ p {
   color: var(--text-color-white);
 }
 
-.sectiom-hero__button {
+.hero-button {
   display: block;
   margin: 0 auto;
   margin-top: 30px;
@@ -234,7 +234,7 @@ p {
   border: none;
   transition: rgba(33, 150, 243, 1),
     drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  cursor: pointer;
   font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
@@ -314,12 +314,12 @@ p {
 
 /*-------Студия--Блок Чем мы занимаемся---------*/
 
-.section-what-we-do {
+.section-services {
   padding-top: 0px;
   padding-bottom: 94px;
 }
 
-.section-what-we-do__title {
+.section-name {
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -330,21 +330,21 @@ p {
   color: var(--title-color);
 }
 
-.section-what-we-do__list {
+.services-list {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-left: -30px;
 }
 
-.section-what-we-do__item {
+.services-list__item {
   position: relative;
   margin-top: 50px;
   margin-left: 30px;
   flex-basis: calc((100%-90px) / 3);
 }
 
-.section-what-we-do__title {
+.services-list_name {
   position: absolute;
   display: flex;
   align-items: center;
