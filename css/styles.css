@@ -319,7 +319,7 @@ p {
   padding-bottom: 94px;
 }
 
-.section-name {
+.section-what-we-do__title {
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -330,21 +330,21 @@ p {
   color: var(--title-color);
 }
 
-.we-do-list {
+.section-what-we-do__list {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-left: -30px;
 }
 
-.we-do-item {
+.section-what-we-do__item {
   position: relative;
   margin-top: 50px;
   margin-left: 30px;
   flex-basis: calc((100%-90px) / 3);
 }
 
-.name {
+.section-what-we-do__title {
   position: absolute;
   display: flex;
   align-items: center;
