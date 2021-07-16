@@ -195,7 +195,7 @@ p {
 
 /*-------------Студия--Шапка------------------*/
 
-.hero {
+.sectiom-hero {
   max-width: 1600px;
   height: 600px;
   margin-right: auto;
@@ -210,7 +210,7 @@ p {
   background-size: cover;
 }
 
-.hero-title {
+.sectiom-hero__title {
   max-width: 696px;
   margin: 0 auto;
 
@@ -223,7 +223,7 @@ p {
   color: var(--text-color-white);
 }
 
-.hero-button {
+.sectiom-hero__button {
   display: block;
   margin: 0 auto;
   margin-top: 30px;
@@ -244,8 +244,8 @@ p {
   letter-spacing: 0.06em;
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.hero__button:hover,
+.hero__button:focus {
   cursor: pointer;
   color: var(--text-color-white);
 
@@ -253,7 +253,7 @@ p {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.hero-button:focus {
+.hero__button:focus {
   padding: 6px 32px;
   background: #188ce8;
   color: var(--text-color-white);
