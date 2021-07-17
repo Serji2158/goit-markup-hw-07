@@ -262,9 +262,8 @@ p {
 
 /*-----------Студия--Особенности---------------*/
 
-.section-features__title {
+.section__title--hidden {
   display: none;
-  color: var(--text-color-white);
 }
 
 .features-list {
@@ -319,7 +318,7 @@ p {
   padding-bottom: 94px;
 }
 
-.section-name {
+.section__title {
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
