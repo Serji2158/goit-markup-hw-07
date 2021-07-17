@@ -411,51 +411,6 @@ p {
   color: var(--text-color);
 }
 
-/* .social-links {
-  display: flex;
-  margin-top: 16px;
-  margin-bottom: 30px;
-  align-items: center;
-  justify-content: center;
-}
-
-.social-links__link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: var(--text-color-white);
-  transition: var(--WEB-BG-color) 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-links__link:hover {
-  background-color: var(--WEB-BG-color);
-}
-
-.social-links__link:hover .social-links__icon {
-  fill: var(--text-color-white);
-}
-
-.social-links__list + .social-links__list {
-  margin-left: 10px;
-}
-
-.social-links__icon {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  fill: #afb1b8;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-links__icon:hover,
-.social-links__icon:focus {
-  fill: white;
-} */
-
 /* -------------Портфолио--------------*/
 
 .filter-menu {
@@ -703,9 +658,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  /* margin-top: 16px;
-  margin-bottom: 30px; */
 }
 
 .social-links__block--position {
@@ -723,9 +675,6 @@ img {
 .social-links__list:focus {
   background-color: var(--WEB-BG-color);
 }
-
-/* .social-links__list--dark {
-} */
 
 .social-links__link {
   cursor: pointer;
