@@ -1,3 +1,10 @@
+.project-catalog {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-bottom: -30px;
+}
+
 .project-catalog__item {
   flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
