@@ -1,0 +1,29 @@
+.filter-menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 34px;
+}
+
+.filter-menu__filter + .filter-menu__filter {
+  margin-left: 8px;
+}
+
+.filter-menu__button {
+  border: none;
+  padding: 6px 22px;
+  border-radius: 4px;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  transition: var(--text-BG-color) 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filter-menu__button:hover,
+.filter-menu__buttonfocus {
+  cursor: pointer;
+  color: var(--text-color-white);
+
+  background: var(--text-BG-color);
+}

@@ -25,17 +25,6 @@ ul {
   --WEB-BG-color: #2196f3;
 }
 
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 h1,
 h2,
 h3,
@@ -45,20 +34,5 @@ h6,
 p {
   margin: 0px;
   padding: 0px;
-}
-
-.section__title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-color);
-}
-
-.section__title--hidden {
-  display: none;
 }
 /*# sourceMappingURL=main.css.map */

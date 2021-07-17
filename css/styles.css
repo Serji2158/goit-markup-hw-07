@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -24,20 +24,20 @@ ul {
   --text-color-white: #ffffff;
   --text-BG-color: #2196f3;
   --WEB-BG-color: #2196f3;
-}
+} */
 
-.container {
+/* .container {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-}
+} */
 
-.section {
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -46,9 +46,9 @@ h6,
 p {
   margin: 0px;
   padding: 0px;
-}
+} */
 
-.section__title {
+/* .section__title {
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -61,11 +61,11 @@ p {
 
 .section__title--hidden {
   display: none;
-}
+} */
 
 /*--------------- Хеддер-------------------- */
 
-.header {
+/* .header {
   padding-top: 24px;
   padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
@@ -74,17 +74,13 @@ p {
 .header-container {
   display: flex;
   align-items: center;
-}
-.navigation {
+} */
+/* .navigation {
   display: flex;
   align-items: center;
-}
+} */
 
-.contacts-menu {
-  display: flex;
-}
-
-.logo {
+/* .logo {
   display: block;
   align-items: center;
 }
@@ -111,9 +107,9 @@ p {
   font-size: 26px;
   line-height: 1.19;
   color: var(--text-color-white);
-}
+} */
 
-.menu-list {
+/* .menu-list {
   display: flex;
   margin-left: 93px;
 }
@@ -166,6 +162,10 @@ p {
 .menu-list__currentt:hover,
 .menu-list__current:focus {
   color: var(--text-BG-color);
+} */
+
+/* .contacts-menu {
+  display: flex;
 }
 
 .contacts-list {
@@ -206,11 +206,11 @@ p {
 .contacts-list__link:hover,
 .contacts-list__link:focus {
   color: var(--text-BG-color);
-}
+} */
 
 /*-------------Студия--Шапка------------------*/
 
-.sectiom-hero {
+/* .sectiom-hero {
   max-width: 1600px;
   height: 600px;
   margin-right: auto;
@@ -236,9 +236,9 @@ p {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--text-color-white);
-}
+} */
 
-.hero-button {
+/* .hero-button {
   display: block;
   margin: 0 auto;
   margin-top: 30px;
@@ -273,11 +273,11 @@ p {
   background: #188ce8;
   color: var(--text-color-white);
   border: none;
-}
+} */
 
 /*-----------Студия--Особенности---------------*/
 
-.features-list {
+/* .features-list {
   display: flex;
   align-items: center;
 }
@@ -320,11 +320,11 @@ p {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
-}
+} */
 
 /*-------Студия--Блок Чем мы занимаемся---------*/
 
-.section-services {
+/* .section-services {
   padding-top: 0px;
   padding-bottom: 94px;
 }
@@ -365,10 +365,10 @@ p {
   text-transform: uppercase;
 
   color: #ffffff;
-}
+} */
 
 /*----------Студия--Наша команда---------------*/
-
+/* 
 .section-team {
   background: #f5f4fa;
 }
@@ -409,11 +409,11 @@ p {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--text-color);
-}
+} */
 
 /* -------------Портфолио--------------*/
 
-.filter-menu {
+/* .filter-menu {
   display: flex;
   justify-content: center;
   margin-bottom: 34px;
@@ -441,9 +441,9 @@ p {
   color: var(--text-color-white);
 
   background: var(--text-BG-color);
-}
+} */
 
-.container-projects {
+/* .container-projects {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
@@ -451,7 +451,7 @@ p {
   margin-left: auto;
   margin-bottom: 114px;
   margin-right: auto;
-}
+} */
 
 .project-catalog {
   display: flex;
@@ -460,7 +460,7 @@ p {
   margin-bottom: -30px;
 }
 
-.project-catalog__item {
+/* .project-catalog__item {
   flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-bottom: 30px;
@@ -538,11 +538,11 @@ p {
 img {
   display: block;
   width: 100%;
-}
+} */
 
 /*--------Постоянные клиенты-------*/
 
-.clients {
+/* .clients {
   margin-top: 50px;
   display: flex;
   align-items: center;
@@ -581,11 +581,11 @@ img {
 .clients__list:hover .clients__icon,
 .clients__list:hover .clients__icon {
   fill: #2196f3;
-}
+} */
 
 /*------------------ Футер----------------- */
 
-.footer {
+/* .footer {
   background: #2f303a;
 }
 
@@ -628,9 +628,9 @@ img {
 .corp-contacts__link:hover,
 .corp-contacts__link:focus {
   color: var(--text-BG-color);
-}
+} */
 
-.socials {
+/* .socials {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -732,7 +732,7 @@ img {
 .social-links__icon:focus {
   fill: white;
 }
-
+/* */
 .subscription {
   display: flex;
   flex-direction: column;
@@ -808,10 +808,11 @@ img {
 
   fill: #ffffff;
 }
+*/
 
 /*-----------Backdrop----------------------*/
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -831,10 +832,10 @@ img {
 
 .backdrop.is-hidden.modal {
   transform: translate(-50%, -50%) scale(1, 5);
-}
+} */
 
 /*-----------ModalWindow---------*/
-
+/* 
 .modal {
   position: absolute;
   width: 528px;
@@ -1039,4 +1040,4 @@ img {
 
 textarea {
   outline: none;
-}
+} */
