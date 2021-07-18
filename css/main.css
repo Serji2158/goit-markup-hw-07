@@ -37,6 +37,21 @@ p {
   padding: 0px;
 }
 
+.section__title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+.section__title--hidden {
+  display: none;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -211,7 +226,7 @@ p {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #c4c4c4;
-  background-image: url(../images/Img\ Overlay.png), url(../images/bg_\ img.png);
+  background-image: rgba(47, 48, 58, 0.4);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -238,8 +253,7 @@ p {
   background: var(--text-BG-color);
   color: var(--text-color-white);
   border: none;
-  transition: #2196f3,
-    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: #2196f3, drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
   font-family: Roboto;
   font-weight: 700;
@@ -308,21 +322,6 @@ p {
   color: var(--text-color);
 }
 
-/* .section__title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-color);
-}
-
-.section__title--hidden {
-  display: none;
-} */
-
 .section-services {
   padding-top: 0px;
   padding-bottom: 94px;
@@ -342,7 +341,7 @@ p {
   flex-basis: calc((100%-90px) / 3);
 }
 
-.name {
+.services-list_name {
   position: absolute;
   display: flex;
   align-items: center;
@@ -378,8 +377,7 @@ p {
   margin-left: 30px;
   flex-basis: calc((100% - 120px) / 4);
   background: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -747,8 +745,7 @@ p {
 }
 
 .project-catalog__item:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .project-catalog__item:nth-last-child(3n) {
@@ -969,7 +966,7 @@ img {
   background: #ffffff;
 }
 
-.modal__input-check:checked + .modal__input-check span {
+.modal__input-check:checked + .modal__check-text span {
   background-color: #2196f3;
   border: none;
 }
@@ -979,18 +976,18 @@ img {
 }
 
 .modal__input-field:focus,
-.modal__input-field:focus {
+.modal__comment-field:focus {
   border: 1px solid #2196f3;
   transition: c #2196f3 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal__input-field:focus ~ .input-icon {
+.modal__input-field:focus ~ .modal__input-icon {
   fill: #2196f3;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*----Кастомный чекбокс----*/
-.modal__input-check {
+.modal__check-text {
   display: flex;
   align-items: center;
   margin-top: 10px;
