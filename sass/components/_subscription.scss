@@ -4,18 +4,13 @@
   justify-content: space-between;
 
   margin-top: 72px;
-  /* margin-right: 678px; */
   margin-bottom: 94px;
   margin-left: 93px;
-}
 
-.subscription__form {
-  display: flex;
-  align-items: center;
-}
-
-.subscription__mail-field + .subscription-btn {
-  margin-left: 12px;
+  &__form {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .subscription__mail-field {
@@ -26,23 +21,27 @@
   background: #2f303a;
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-}
+  border-radius: $brd-radius-4;
 
-.subscription__mail-field::placeholder {
-  width: 47px;
-  height: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 16px;
+  &::placeholder {
+    width: 47px;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
 
-  font-size: 16px;
-  line-height: 1.25;
+    font-size: 16px;
+    line-height: 1.25;
 
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  & + .subscription-btn {
+    margin-left: 12px;
+  }
 }
 
 .subscription-btn {
@@ -60,16 +59,17 @@
   font-size: 16px;
   line-height: 1.87;
 
-  display: flex;
-  align-items: center;
-  text-align: center;
+  @extend %flex-center;
+  // display: flex;
+  // align-items: center;
+  // text-align: center;
   letter-spacing: 0.06em;
 
   color: #ffffff;
-}
 
-.subscription-btn__icon {
-  margin-left: 10px;
+  &__icon {
+    margin-left: 10px;
 
-  fill: #ffffff;
+    fill: #ffffff;
+  }
 }
