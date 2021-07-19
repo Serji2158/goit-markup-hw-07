@@ -203,7 +203,7 @@ p {
   fill: #2196f3;
 }
 
-.contacts-list:hover, .contacts-list:focus {
+.contacts-list__link:hover, .contacts-list__link:focus {
   color: #2196f3;
 }
 

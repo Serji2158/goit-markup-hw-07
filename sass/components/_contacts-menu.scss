@@ -30,8 +30,8 @@
     fill: $text-BG-color;
   }
 
-  &:hover,
-  &:focus {
+  &__link:hover,
+  &__link:focus {
     color: $text-BG-color;
   }
 }
